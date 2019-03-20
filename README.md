@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/captain-proton/db-choice-sample.svg?branch=master)](https://travis-ci.com/captain-proton/db-choice-sample)
+
 # Example application for database selection
 
 This example application is intended to illustrate Dependency Injection by selecting different databases. The implementation used for [JSR330 (Dependency Injection for Java)](https://jcp.org/en/jsr/detail?id=330) is [Google Guice](https://github.com/google/guice). This application is a simple JSE application, so this dependency is necessary. A reference implementation is included in JEE. The application contains classes for handling Sqlite and Mysql. Mysql was tested in version 5.1. For explanations of the code it is helpful to read the classes `Application` and `SqlFooDao`.
