@@ -11,7 +11,7 @@ To keep the application simple, the `getDbUrl()` method is implemented in the `M
 A build of the project can be executed via the included Gradle Wrapper.
 
 ```shell
-./gradlew run.
+./gradlew run
 ```
 
 By default the sqlite database `foo.db` is used. If Mysql is to be used as a database, the custom task `runMysql` must be used.
